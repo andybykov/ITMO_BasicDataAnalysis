@@ -1,0 +1,169 @@
+## Игнорирование файлов Visual Studio
+
+# Папки сборки
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa]rm/
+[Aa]rm64/
+out/
+build/
+bld/
+Bin/
+obj/
+OpenCover/
+
+# Файлы сборки
+*.lib
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.iobj
+*.ipdb
+*.obj
+*.o
+*.sbr
+
+# Файлы пользовательских настроек Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.vcxproj.filters
+*.vc.db
+*.vscode
+.vs/
+
+# Файлы кэша и временные файлы
+*.cache
+*.tlog
+*.log
+*.tmp
+*.temp
+*.pidb
+*.pch
+*.ipch
+*.opensdf
+*.unsuccessfulbuild
+*.lastbuildstate
+*.dbmdl
+
+# Файлы отладки
+*.sdf
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Результаты тестирования
+[Bb]uild/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+# Проектные файлы NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Проектные файлы vcpkg
+vcpkg_installed/
+vcpkg-manifest-install.log
+
+# Файлы конфигурации
+*.opensdf
+*.opendb
+*.VC.opendb
+*.VC.db
+*.sdf
+*.ipch
+*.db
+
+# Файлы ReSharper
+_ReSharper*/
+*.ReSharper
+*.ReSharper.user
+
+# Файлы NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Файлы dotCover
+*.dotCover
+*.dotCover.user
+
+# Файлы Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Файлы документации
+*.chm
+*.doc
+
+# Файлы резервных копий
+*.bak
+*.backup
+*.old
+*~
+
+# Файлы логов
+*.log
+*.etl
+
+# Файлы, созданные CI/CD системами
+appveyor.yml
+*.jenkins
+*.travis.yml
+.gitlab-ci.yml
+
+# Временные файлы Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.msi
+*.msm
+*.msp
+
+# Файлы пользовательских настроек
+*.pidb
+*.svclog
+*.scc
+
+# Папки зависимостей проекта
+packages/
+node_modules/
+jspm_packages/
+bower_components/
+Data/
+ModelTraining/
+
+# Исключение для файлов, которые нужно сохранить
+!/.gitkeep
+!/**/.gitkeep
+
+# Сохраняем проектные файлы 
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!*.props
+!*.targets
+
+# Сохраняем README и лицензии
+!README.md
+!LICENSE
+!LICENSE.txt
+!COPYING
+!NOTICE
