@@ -147,7 +147,6 @@ packages/
 node_modules/
 jspm_packages/
 bower_components/
-Data/
 ModelTraining/
 
 # Исключение для файлов, которые нужно сохранить
